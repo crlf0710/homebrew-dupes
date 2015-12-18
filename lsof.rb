@@ -1,8 +1,8 @@
 class Lsof < Formula
   homepage "http://people.freebsd.org/~abe/"
-  url "ftp://sunsite.ualberta.ca/pub/Mirror/lsof/lsof_4.88.tar.bz2"
-  mirror "http://mirror.jaredwhiting.net/distfiles/lsof_4.88.tar.bz2"
-  sha256 "fe6f9b0e26b779ccd0ea5a0b6327c2b5c38d207a6db16f61ac01bd6c44e5c99b"
+  url "ftp://sunsite.ualberta.ca/pub/Mirror/lsof/lsof_4.89.tar.bz2"
+  mirror "http://mirror.jaredwhiting.net/distfiles/lsof_4.89.tar.bz2"
+  sha256 "81ac2fc5fdc944793baf41a14002b6deb5a29096b387744e28f8c30a360a3718"
 
   def install
     ENV["LSOF_INCLUDE"] = "#{MacOS.sdk_path}/usr/include"
